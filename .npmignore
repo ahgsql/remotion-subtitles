@@ -2,6 +2,7 @@
 node_modules
 .storybook
 src
+readme_files
 
 # Output of 'npm pack'
 *.tgz
