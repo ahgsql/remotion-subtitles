@@ -53,7 +53,7 @@ export const MyVideo = () => {
 ```
 This library includes, **17 hand-made** styled Components for you to use. 
 
-You can import them from **"remotion-subtitles/captions"** to use, if you want to pass custom style, go ahead.
+You can import them from **"remotion-subtitle"** to use, if you want to pass custom style, go ahead.
 
 
 **style** prop: Apply custom styles to your captions (e.g., color, font size)  
