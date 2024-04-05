@@ -16,7 +16,7 @@ npm install remotion-subtitle
 Import the Library and Caption Template:  
 
 ```javascript
-import { SubtitleSequence } from "remotion-subtitles";  
+import { SubtitleSequence } from "remotion-subtitle";  
 
 ```
 
@@ -83,8 +83,8 @@ Available Caption Templates
 Example  
 
 ```javascript
-import { SubtitleSequence } from "remotion-subtitles";  
-import { FireCaption as Caption } from 'remotion-subtitles/captions';
+import { SubtitleSequence } from "remotion-subtitle";  
+import { FireCaption as Caption } from 'remotion-subtitle';
 // Replace 'FireCaption' with your desired caption template  
 const srtData = `...`; // Your SRT data as string.
 const subtitles = new SubtitleSequence(srtData);
