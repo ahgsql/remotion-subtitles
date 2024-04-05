@@ -1,0 +1,6 @@
+# Folders
+node_modules
+dist
+
+# Output of 'npm pack'
+*.tgz
