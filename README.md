@@ -1,4 +1,4 @@
-## Remotion Subtitles Library
+## Remotion Subtitle Library
 
   
 Remotion Subtitles is a JavaScript library designed to simplify the process of adding animated subtitles or captions to your Remotion video projects. It offers easy parsing of SRT files and provides various pre-built caption templates with stunning animation effects.The library automatically handles SRT files using either comma (,) or dot (.) as the decimal separator.  
@@ -8,7 +8,7 @@ Remotion Subtitles is a JavaScript library designed to simplify the process of a
 ## Installation
 
 ```bash
-npm install remotion-subtitles  
+npm install remotion-subtitle  
 ```
 
 ## Usage  
