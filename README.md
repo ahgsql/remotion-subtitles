@@ -64,21 +64,53 @@ subtitles.getSequences(<Caption style={{ fontSize: "24px" }} />)
 Available Caption Templates  
 
 * BounceCaption  
+![BounceCaption](https://github.com/ahgsql/remotion-subtitles/blob/main/readme_files/BounceCaption.gif)
+
 * ColorfulCaption  
+![ColorfulCaption](https://github.com/ahgsql/remotion-subtitles/blob/main/readme_files/ColorfulCaption.gif)
+
 * ExplosiveCaption  
+![ExplosiveCaption](https://github.com/ahgsql/remotion-subtitles/blob/main/readme_files/ExplosiveCaption.gif)
+
 * FadeCaption  
+![FadeCaption](https://github.com/ahgsql/remotion-subtitles/blob/main/readme_files/FadeCaption.gif)
+
 * FireCaption  
+![FireCaption](https://github.com/ahgsql/remotion-subtitles/blob/main/readme_files/FireCaption.gif)
+
 * GlitchCaption  
+![GlitchCaption](https://github.com/ahgsql/remotion-subtitles/blob/main/readme_files/GlitchCaption.gif)
+
 * GlowingCaption  
+![GlowingCaption](https://github.com/ahgsql/remotion-subtitles/blob/main/readme_files/GlowingCaption.gif)
+
 * LightningCaption  
+![LightningCaption](https://github.com/ahgsql/remotion-subtitles/blob/main/readme_files/LightningCaption.gif)
+
 * NeonCaption  
+![NeonCaption](https://github.com/ahgsql/remotion-subtitles/blob/main/readme_files/NeonCaption.gif)
+
 * RotatingCaption  
+![RotatingCaption](https://github.com/ahgsql/remotion-subtitles/blob/main/readme_files/RotatingCaption.gif)
+
 * ShakeCaption  
+![ShakeCaption](https://github.com/ahgsql/remotion-subtitles/blob/main/readme_files/ShakeCaption.gif)
+
 * ThreeDishCaption  
+![ThreeDishCaption](https://github.com/ahgsql/remotion-subtitles/blob/main/readme_files/ThreeDishCaption.gif)
+
 * TiltShiftCaption  
+![TiltShiftCaption](https://github.com/ahgsql/remotion-subtitles/blob/main/readme_files/TiltShiftCaption.gif)
+
 * TypewriterCaption  
+![TypewriterCaption](https://github.com/ahgsql/remotion-subtitles/blob/main/readme_files/TypewriterCaption.gif)
+
 * WavingCaption  
+![WavingCaption](https://github.com/ahgsql/remotion-subtitles/blob/main/readme_files/WavingCaption.gif)
+
 * ZoomCaption  
+![ZoomCaption](https://github.com/ahgsql/remotion-subtitles/blob/main/readme_files/ZoomCaption.gif)
+
 
 Example  
 
