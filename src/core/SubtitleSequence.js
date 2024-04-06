@@ -1,11 +1,27 @@
 import {
-  useVideoConfig, Sequence
+  Sequence,
+  staticFile
 } from "remotion";
 import React from "react";
 class SubtitleSequence {
-  constructor(text) {
-    this.text = text;
+  constructor(path) {
+    this.promise = new Promise((resolve, reject) => {
+      fetch(staticFile(path))
+        .then((res) => res.text())
+        .then((text) => {
+          this.text = text;
+          resolve();
+        })
+        .catch((err) => {
+          console.log('Error fetching subtitles', err);
+          reject(err);
+        });
+    });
   }
+  ready() {
+    return this.promise;
+  }
+
   seperator = ",";
   timestampToSeconds(srtTimestamp) {
     const [rest, millisecondsString] = srtTimestamp.split(",");
@@ -84,6 +100,7 @@ class SubtitleSequence {
       };
       items.push(new_line);
     }
+
     return items;
   }
   toSrt(data) {
@@ -97,8 +114,8 @@ class SubtitleSequence {
     }
     return res;
   }
-  getSequences(customComponent = null) {
-    let subtitleData = this.getArray();
+  getSequences(customComponent = null, fps = 30) {
+    let subtitleData = this.getArray(fps);
     return subtitleData.map((item, i) => {
       return (
         <Sequence key={i}
@@ -114,8 +131,10 @@ class SubtitleSequence {
       );
     })
   }
-  getArray() {
-    const { fps } = useVideoConfig();
+  setData(data) {
+    this.text = data;
+  }
+  getArray(fps) {
     let subtitleData = this.fromSrt(this.text).map((item) => {
       return {
         text: item.text,
