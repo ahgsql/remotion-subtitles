@@ -119,14 +119,14 @@ Available Caption Templates
 
 ### SubtitleSequence Class
 
-**constructor(text):** Initializes the Sequence with SRT data.
+**constructor(filepath):** Initializes the Sequence with SRT file path.
 
-**getSequences(customComponent):** Generates Remotion Sequence components with captions.
+**getSequences(customComponent,fps=30):** Generates Remotion Sequence components with captions with desired fps.
 Returns Sequences with auto applied timings.
 
 **ready** Returns a promise, to load .srt file from public/ folder.
 
-**getArray():** Returns the parsed subtitle data as an array. So you can use them as you wish.
+**getArray(fps):** Returns the parsed subtitle data as an array. So you can use them as you wish.
 
 each item has **text**, **startFrame** and **endFrame** properties.
 
