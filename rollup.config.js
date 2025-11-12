@@ -20,5 +20,5 @@ export default {
     commonjs(),
     terser(),
   ],
-  external: Object.keys(pkg.peerDependencies),
+  external: [...Object.keys(pkg.peerDependencies), "react/jsx-runtime"],
 };

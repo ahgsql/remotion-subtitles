@@ -1,13 +1,13 @@
 {
   "name": "remotion-subtitle",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "Create Animated Subtitles from .srt files in remotion.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
-    "publish": "npm run build && npm publish --access public"
+    "publishnow": "npm run build && npm publish --access public"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,9 @@
   "author": "ahgsql",
   "license": "MIT",
   "peerDependencies": {
-    "remotion": "^4.0.137"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "^4.0.374"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
@@ -33,7 +35,9 @@
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
     "@rollup/plugin-terser": "^0.4.4",
-    "remotion": "^4.0.137",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "^4.0.374",
     "rollup": "^2.52.4"
   }
 }
